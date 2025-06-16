@@ -1,5 +1,6 @@
 import { createContext } from "react";
 import { Task } from "./task";
+import { User } from "firebase/auth";
 
 export type TaskContextType = {
   tasks: Task[];
@@ -13,4 +14,14 @@ export const TaskContext = createContext<TaskContextType>({
   removeTask: () => {},
   tasks: [],
   updateTask: () => {},
+});
+
+export type AuthContextType = {
+  user: User | null;
+  initializing: boolean;
+};
+
+export const AuthContext = createContext<AuthContextType>({
+  user: null,
+  initializing: true,
 });

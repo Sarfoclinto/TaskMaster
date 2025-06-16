@@ -24,6 +24,19 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "extra": {
+        "firebaseConfig": {
+          "apiKey": "AIzaSyBQeBDlNzUUhsmnVjssbDnH63UkkYnLeIk",
+          "authDomain": "taskmaster-e9b89.firebaseapp.com",
+          "projectId": "taskmaster-e9b89",
+          "storageBucket": "taskmaster-e9b89.firebasestorage.app",
+          "messagingSenderId": "1092413827630",
+          "appId": "1:1092413827630:web:d4a2e6c2dfa850a683cdbf",
+          "measurementId": "G-Y0PLH1Y80B"
+        }
+      }
     }
   }
 }
