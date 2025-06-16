@@ -28,7 +28,6 @@
     "expo": {
       "extra": {
         "firebaseConfig": {
-          "apiKey": "AIzaSyBQeBDlNzUUhsmnVjssbDnH63UkkYnLeIk",
           "authDomain": "taskmaster-e9b89.firebaseapp.com",
           "projectId": "taskmaster-e9b89",
           "storageBucket": "taskmaster-e9b89.firebasestorage.app",
