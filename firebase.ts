@@ -1,5 +1,6 @@
 import { FirebaseApp, initializeApp } from "firebase/app";
 import Constants from "expo-constants";
+import "dotenv/config";
 
 const firebaseConfig = Constants.expoConfig?.extra?.firebaseConfig;
 
